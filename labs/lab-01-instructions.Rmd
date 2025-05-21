@@ -4,7 +4,7 @@ date: "CRJ 507 Social Network Analysis"
 output: 
   html_document:
     df_print: paged
-    theme: cosmo
+    theme: sandstone
     highlight: haddock
     toc: yes
     toc_float: yes

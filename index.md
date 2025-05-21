@@ -2,9 +2,11 @@
 layout: index
 title: Syllabus
 
+
 index:
     title: Social Network Analysis
     subtitle: The objective of this course is to introduce students to Social Network Analysis and its practical application in the criminal justice system. Students will be able to understand and discuss the fundamental issues associated with social network analysis and will understand how to use software to conduct social network analysis. This course offers a practical, tools-based approach that is designed to build strong foundations for people that want to work as analysts in criminal justice fields. The course is analytically rigorous, but no prior programming experience is assumed. By the end of this course, you will know how to construct networks, analyze them, and create reports on networks. 
+
 
 info:
  program_title: Online Master of Science in Crime Analysis
@@ -13,7 +15,7 @@ info:
  course_number: CRJ 507
  course_level: Graduate
  course_website: 'https://canvas.asu.edu/courses/204183'
- course_start_end_dates: January 13th - March 4th, 2025
+ course_start_end_dates: August 21st - October 10th, 2025
  course_prerequisites:  
  class_meets_when:  Asynchronous  
  class_meets_where:  Online
@@ -31,6 +33,7 @@ instructor:
    office_hours_app_url: 'https://calendly.com/jacobtnyoung/crj-507-student-meeting'
    office_hours_location: Zoom
 
+
 textbooks:
 - title: Social Network Analysis for Crime Analysts
   authors: Jacob T.N. Young
@@ -41,6 +44,7 @@ textbooks:
   authors: Jacob T.N. Young
   link: https://jacobtnyoung.github.io/snaca-r/
   required: Required (but also free!)
+
 
 ---
 
@@ -133,7 +137,7 @@ The assigned work for the term comes in the form of three elements, described be
 
 ### Weekly Labs (60%)  
 
-Each week you will receive a short lab that will help you synthesize the material from the week. Weekly labs will receive one of the following scores: 10 (excellent work!), 7 (great start, but there are a few things to fix), 3 (I can see you are working hard, but there are a number of areas that need fixing). Scoring is based on the answers you provide, the cleanliness of the code and output, and proofreading. I will review your lab after it is turned in and provide feedback. *NOTE*: Weekly labs <u>can</u> be **resubmitted**. You can make revisions to your lab, based on my feedback, and I will regrade it. For example, if you turn in a lab, receive a score of 7, and then revise the lab based on feedback, you could earn a 10. **Re**-submissions with revisions will be accepted up to the day that the lab solutions are distributed. 
+Each week you will receive a short lab that will help you synthesize the material from the week. Weekly labs will receive one of the following scores: 10 (excellent work!), 7 (great start, but there are a few things to fix), 3 (I can see you are working hard, but there are a number of areas that need fixing). Scoring is based on the answers you provide, the cleanliness of the code and output, and proofreading. I will review your lab after it is turned in and provide feedback. *NOTE*: Weekly labs <u>can</u> be **resubmitted** once. You can make revisions to your lab, based on my feedback, and I will regrade it (once). For example, if you turn in a lab, receive a score of 7, and then revise the lab based on my feedback, you could earn a 10. **Re**-submissions with revisions will be accepted up to the day that the lab is due. Lab submissions or **re**-submissions <u>will not be</u> accepted after the lab solutions are distributed. 
 
 #### Lab Review Sessions
 
@@ -181,7 +185,7 @@ Grades for the course are largely based on weekly labs. Assigned work is accompa
 
 **Course content** is hosted on this website. Lecture files, assignments and other course communications will be transmitted via this site and/or through the class email list. **All assignment submissions** will be made through the [**Canvas shell**](https://canvas.asu.edu/courses/204183).
 
-Please post lab questions on the [**Get Help**](https://watts-college.github.io/crj-507-spring-2025/help/) page on this site, schedule individual office hours using the [Calendly link](https://calendly.com/jacobtnyoung/crj-507-student-meeting), and [email me](mailto:CRJ507@asu.edu) directly instead of using the Canvas system.
+Please post lab questions on the [**Get Help**](https://watts-college.github.io/crj-507-fall-2025/help/) page on this site, schedule individual office hours using the [Calendly link](https://calendly.com/jacobtnyoung/crj-507-student-meeting), and [email me](mailto:CRJ507@asu.edu) directly instead of using the Canvas system.
 
 Be aware that I will attempt to respond to any course-related email as quickly as possible. I ask that you allow between 24 and 48 hours as a reasonable time to reply to questions or other issues posed in an email. Additionally, the general timeline for grading or other feedback on assignments, either writer work or online discussion work, is between 5 and 10 work days.
 
@@ -221,7 +225,7 @@ As students are all aware, ASU Online courses are typically offered on a seven a
 
 **Note:** The course instructor may from time to time adjust assigned readings or adjust the due dates for assignments. The basic course content approach and learning objectives will not change, but slight modifications are possible if circumstances warrant an adjustment.
 
-Visit the [**Course Schedule**](https://watts-college.github.io/crj-507-spring-2025/schedule/).
+Visit the [**Course Schedule**](https://watts-college.github.io/crj-507-fall-2025/schedule/).
 
 <br>
 <br>
