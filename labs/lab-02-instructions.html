@@ -11,7 +11,7 @@
 
 
 
-<title>Lab 01 - Introduction to Network Analysis - INSTRUCTIONS</title>
+<title>Lab 02 - Network Visualization - INSTRUCTIONS</title>
 
 <script>// Pandoc 2.9 adds attributes on both header and div. We remove the former (to
 // be compatible with the behavior of Pandoc < 2.8).
@@ -2831,7 +2831,7 @@ border-radius: 0px;
 
 
 
-<h1 class="title toc-ignore">Lab 01 - Introduction to Network Analysis -
+<h1 class="title toc-ignore">Lab 02 - Network Visualization -
 INSTRUCTIONS</h1>
 <h4 class="date">CRJ 507 Social Network Analysis</h4>
 
@@ -2840,48 +2840,101 @@ INSTRUCTIONS</h1>
 
 <div id="introduction" class="section level1">
 <h1>Introduction</h1>
-<p>For the first lab, I would like you to construct a network. Think
-about a type of relationship that is interesting, important, etc. and
-what it connects. Whatever floats your boat. It can be a real example
-from your life, something fictitious, anything really. The <em>only</em>
-restriction is that it should have <u>at least</u> 20 nodes.</p>
-<p><strong>IMPORTANT</strong>: <em>read through the instructions
-completely before deciding what you will choose</em>.</p>
-<div id="part-i" class="section level2">
-<h2>Part I</h2>
-<p><em>After making your decision, do the following</em>:</p>
-<div id="a.-describe-the-network" class="section level3">
-<h3>A. Describe the network</h3>
+<p>The purpose of this lab is to familiarize yourself with how networks
+are created and visualized in <em>R</em>.</p>
+<p><br></p>
+<p>In <a href="../labs/lab-01-instructions.html">Lab 1</a> you created
+two networks. I would like you to continue working with those networks
+for <em>this</em> lab. Please review the <a href="https://jacobtnyoung.github.io/snaca-r/snaca-r-network-data.html">Working
+with Networks in R</a> and <a href="https://jacobtnyoung.github.io/snaca-r/snaca-r-visualization.html">Basics
+of Network Visualization</a> tutorials prior to beginning this lab.</p>
+<p>Two <strong>IMPORTANT</strong> points:</p>
+<ul>
+<li><p>If you created a bipartite (i.e. two-mode) network in <a href="../labs/lab-01-instructions.html">Lab 1</a> for either network,
+you will need to restructure the network to be unipartite for this
+assignment. But, this is a simple task! All you have to do is figure out
+which node set you want to connect and create direct connections between
+them. For example, if Jon and Julio both attended a <a href="https://en.wikipedia.org/wiki/Wu-Tang_Clan">Wu-Tang Clan</a>
+concert, then the bipartite graph is: Jon-Event-Julio. That is, Jon and
+Julio are connected by the event. To make this unipartite, just remove
+the event such that you simply have: Jon-Julio.</p></li>
+<li><p>If you review the instructions below and you feel like your
+network is not appropriate for the assignment and need to create a
+different example…that is fine! We will use these networks throughout
+the course, so I want to make sure you have something you can work with
+consistently.</p></li>
+</ul>
+<p>Make sense? If you have questions before you begin, just post an <a href="https://github.com/Watts-College/crj-507-fall-2025/issues/new">issue</a>
+to the course help page.</p>
+<p><br></p>
+<p>For <em>each</em> network you created, do the following:</p>
 <ol style="list-style-type: decimal">
-<li>Is the network one mode or multi-mode?</li>
-<li>What do the points (i.e. nodes) represent? (note: if multiple modes,
-be sure to describe each mode)</li>
-<li>What do the ties (i.e. edges) represent?</li>
-<li>Are the ties simplex or multiplex? (note: if multiplex, be sure to
-describe each edge)</li>
-<li>Are the ties undirected or directed? Binary/Weighted/Signed?</li>
-<li>Why type of edge is it? (social relationship? Interactions?
-Flow?)</li>
-<li>Why did you pick this network?</li>
+<li>Create an adjacency matrix of the network using the
+<code>matrix()</code> function.</li>
+<li>Create an object of class <code>network</code>.</li>
+<li>Plot the network using the <code>gplot()</code> function. Modify the
+plot using at least three arguments in the <code>gplot()</code>
+function.</li>
 </ol>
-</div>
-<div id="b.-draw-a-picture-of-the-network-by-hand-is-fine" class="section level3">
-<h3>B. Draw a picture of the network (by hand is fine)</h3>
+<p><br></p>
 <hr />
-</div>
-</div>
-<div id="part-ii" class="section level2">
-<h2>Part II</h2>
-<p>After completing Part I, create a new network and repeat Part I on
-that network.</p>
-<hr />
-</div>
+<p><br></p>
 </div>
 <div id="how-to-submit" class="section level1">
 <h1>How to Submit</h1>
-<p>Upload a <code>.pdf</code> or <code>.docx</code> file to the
-appropriate link for this assignment on the Canvas page for this
+<p>Download the <a href="../labs/templates/lab-02-LastName.zip?raw=true">template for this
+lab</a> prior to beginning the lab.</p>
+<p><br></p>
+<div id="knitting-to-html" class="section level3">
+<h3>Knitting to HTML</h3>
+<p>When you have completed your assignment, click the “Knit” button to
+render your <code>.RMD</code> file into a <code>.HTML</code> report.</p>
+<p><br></p>
+</div>
+<div id="special-instructions" class="section level3">
+<h3>Special Instructions</h3>
+<p>Upload both your <code>.RMD</code> and <code>.HTML</code> files to
+the appropriate link for this assignment on the Canvas page for this
 course.</p>
+<p><br></p>
+</div>
+<div id="before-you-submit" class="section level3">
+<h3>Before You Submit</h3>
+<p>Remember to ensure the following before submitting your
+assignment.</p>
+<ol style="list-style-type: decimal">
+<li>Name your files using this format:
+<strong>Lab-##-LastName.rmd</strong> and
+<strong>Lab-##-LastName.html</strong></li>
+<li>Show both the solution for your code and write out your answers in
+the body text</li>
+</ol>
+<p>See <a href="https://google.github.io/styleguide/Rguide.xml">Google’s
+R Style Guide</a> for examples of common conventions.</p>
+<p><br> <br></p>
+</div>
+<div id="common-knitting-issues" class="section level3">
+<h3>Common Knitting Issues</h3>
+<p><code>.RMD</code> files are knit into <code>.HTML</code> and other
+formats procedural, or line-by-line.</p>
+<ul>
+<li>An error in code when knitting will halt the process; error messages
+will tell you the specific line with the error</li>
+<li>Certain functions like <code>install.packages()</code> or
+<code>setwd()</code> are bound to cause errors in knitting</li>
+<li>Altering a dataset or variable in one chunk will affect their use in
+all later chunks</li>
+<li>If an object is “not found”, make sure it was created or loaded with
+<code>library()</code> in a previous chunk</li>
+</ul>
+<p><strong>If All Else Fails:</strong> If you cannot determine and fix
+the errors in a code chunk that’s preventing you from knitting your
+document, add <code>eval = FALSE</code> inside the brackets of
+<code>{r}</code> at the beginning of a chunk to ensure that R does not
+attempt to evaluate it, that is: <code>{r eval = FALSE}</code>. This
+will prevent an erroneous chunk of code from halting the knitting
+process.</p>
+<p><br></p>
 <hr />
 <p><br></p>
 <div id="please-report-any-needed-corrections-to-the-issues-page.-thanks" class="section level5">
@@ -2889,6 +2942,7 @@ course.</p>
 the <a href="https://github.com/Watts-College/crj-507-fall-2025/issues/new">Issues</a>
 page. Thanks!</h5>
 <p><br> <br></p>
+</div>
 </div>
 </div>
 

@@ -4,7 +4,7 @@ date: "CRJ 507 Social Network Analysis"
 output: 
   html_document:
     df_print: paged
-    theme: cosmo
+    theme: spacelab
     highlight: haddock
     toc: yes
     toc_float: yes
@@ -32,7 +32,7 @@ Two **IMPORTANT** points:
   
   + If you review the instructions below and you feel like your network is not appropriate for the assignment and need to create a different example...that is fine! We will use these networks throughout the course, so I want to make sure you have something you can work with consistently.
 
-Make sense? If you have questions before you begin, just post an [issue](https://github.com/Watts-College/crj-507-spring-2025/issues/new) to the course help page.
+Make sense? If you have questions before you begin, just post an [issue](https://github.com/Watts-College/crj-507-fall-2025/issues/new) to the course help page.
 
 <br>
 
@@ -40,8 +40,7 @@ For *each* network you created, do the following:
 
 1. Create an adjacency matrix of the network using the `matrix()` function.
 2. Create an object of class `network`. 
-3. Plot the network using the `gplot()` function.    
-4. Modify the plot using at least three arguments in the `gplot()` function.  
+3. Plot the network using the `gplot()` function. Modify the plot using at least three arguments in the `gplot()` function.  
 
 <br>
 
@@ -96,7 +95,7 @@ ____
 
 <br>
 
-##### ***Please*** report any needed corrections to the [Issues](https://github.com/Watts-College/crj-507-spring-2025/issues/new) page. Thanks!
+##### ***Please*** report any needed corrections to the [Issues](https://github.com/Watts-College/crj-507-fall-2025/issues/new) page. Thanks!
 
 <br>
 <br>

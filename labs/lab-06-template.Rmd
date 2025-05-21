@@ -5,7 +5,7 @@ date: "`r format(Sys.time(), '%d %B, %Y')`"
 output: 
   html_document:
     df_print: paged
-    theme: journal
+    theme: flatly
     highlight: haddock
     toc: yes
     toc_float: yes

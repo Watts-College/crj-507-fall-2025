@@ -4,7 +4,7 @@ date: "CRJ 507 Social Network Analysis"
 output: 
   html_document:
     df_print: paged
-    theme: cosmo
+    theme: spacelab
     highlight: haddock
     toc: yes
     toc_float: yes
@@ -18,39 +18,13 @@ knitr::opts_chunk$set( echo = TRUE )
 
 # Introduction
 
-The final project will use all of the information you have learned in this course to create a report on a network. For the final project, you will use data from the Phoenix Open Data Portal. Specifically, you will use co-arrest data. These data represent incidents where individuals were arrested together. For the final project, imagine that you work for a police department and your supervisor has asked you to create a report on co-offending networks. Your supervisor has provided you two networks: the `PhxArrestNet2023` network of co-offending for 2023 and the `PhxArrestNet2022` network of co-offending for 2022.
+The final project will use all of the information you have learned in this course to create a report on a network. For the final project, you will use data from the Phoenix Open Data Portal. Specifically, you will use co-arrest data. These data represent incidents where individuals were arrested together. For the final project, imagine that you work for a police department and your supervisor has asked you to create a report on co-offending networks. Your supervisor has provided you two networks: the `phx_arrest_2024_net` network of co-offending for 2024 and the `phx_arrest_2023_net` network of co-offending for 2023.
 
 <br>
 
 ## Data
 
-Both networks are stored as .rds files in the data folder for the [Social Network Analysis for Crime Analysts using R](https://github.com/jacobtnyoung/snaca-r/tree/main/data) textbook. As before, use the `readRDS()` function, to load the file. Be sure to make sure the `sna` and `network` packages are loaded, using `library()`, so that R recognizes the objects as being of class `network`.
-
-Use the following code to load the 2023 network:
-
-```{r, echo=TRUE, eval=FALSE}
-
-# set the url
-loc <- "https://github.com/jacobtnyoung/snaca-r/raw/main/data/data-PHX-arrest-2023-net.rds"
-
-# for the 2023
-PhxArrestNet2023 <- readRDS( url( loc ) )
-
-```
-
-<br>
-
-Use the following code to load the 2022 network:
-
-```{r, echo=TRUE, eval=FALSE}
-
-# set the url
-loc <- "https://github.com/jacobtnyoung/snaca-r/raw/main/data/data-PHX-arrest-2022-net.rds"
-
-# for the 2022
-PhxArrestNet2022 <- readRDS( url( loc ) )
-
-```
+Both networks are available in the `SNACpack` package we have used throughout the course. Use `library( SNACpack )` to load the package, then `?phx_arrest_2024_net` and `?phx_arrest_2023_net` to review the documentation for each network. Be sure to review the documentation as it contains important information about the structure of the network as well as the vertex attributes.
 
 <br>
 
@@ -66,19 +40,35 @@ As with the labs, There is a template for the final project. The template is set
 
 ## Part I: Two-Mode Network
 
-*What can you tell me about this network?* To answer your supervisor's question, provide an analysis of the `PhxArrestNet2023` network. This analysis should include a visualization of the network as well as a description of the structural properties such as the density and the degree distributions. Be sure to focus on the interpretation of the structural properties (e.g. what does the average degree centrality score mean?).
+*What can you tell me about this network and what does it tell me about co-offending?* To answer your supervisor's question, provide an analysis of the `phx_arrest_2024_net` network. This analysis should include a visualization (or more) of the network as well as a description of the structural properties. In your analysis, you should identify what measures of network structure you are using and explain why you have selected the measure (or measures).
 
 <br>
 
 ## Part II: One-Mode Network
 
-*Who are the central actors in this network?* To answer your supervisor's question, provide an analysis of the "person" matrix for the `PhxArrestNet2023` network. Create an object of class `matrix` using the `as.sociomatrix()` function in the `network` package. Then, focus on describing the centrality of actors. You should examine the three types of centrality we discussed (i.e. degree, closeness, and betweenness). Be sure to emphasize any differences in the measures in terms of interpreting the "who is central?" question. Also, be sure to include visualizations that incorporate each centrality measure.
+*How is this network different from Part I and what does it tell me about co-offending?* To answer your supervisor's question, provide an analysis of the "person" matrix for the `phx_arrest_2024_net` network. Create an object of class `matrix` using the `as.sociomatrix()` function in the `network` package. In your analysis, you should identify what measures of network structure you are using and explain why you have selected the measure (or measures). 
 
 <br>
 
 ## Part III: Comparison
 
-*How has the co-offending network changed from 2022 to 2023?* To answer your supervisor's question, provide a comparative analysis of the `PhxArrestNet2022` and the `PhxArrestNet2023` networks. Think about the ways we discussed for comparing networks this semester. Your analysis should compare the two-mode networks as well as the "person" matrices. 
+*How has the co-offending network changed from 2023 to 2024?* To answer your supervisor's question, provide a comparative analysis of the `phx_arrest_2023_net` and the `phx_arrest_2024_net` networks. Think about the ways we discussed for comparing networks this semester. Your analysis should compare the two-mode networks as well as the "person" matrices. 
+
+<br>
+
+## Part IV: Executive Summary
+
+This section should provide, in your own words, a summary of Parts I-III. This section should be targeted to a reader of the report who may not be familiar with network analysis, but wants to know what is going on with co-offending in Phoenix. Here are some interpretation prompts to help you with that section (though, you can don't *have* to use these):
+
+  * What does this network suggest about the organization or fragmentation of co-offending in each year?
+  
+  * What story do these networks tell about how co-offending operates and evolves?
+  
+  * If you were briefing a supervisor or policy team, what are the three key takeaways from your analysis?
+  
+  * What are some limitations of your analysis? What data or methods would help improve your conclusions?
+  
+  * What surprised you the most during this project—and what might that mean?
 
 <br>
 <br>
@@ -134,7 +124,7 @@ See [Google's R Style Guide](https://google.github.io/styleguide/Rguide.xml) for
 
 <br>
 
-##### ***Please*** report any needed corrections to the [Issues](https://github.com/Watts-College/crj-507-spring-2025/issues/new) page. Thanks!
+##### ***Please*** report any needed corrections to the [Issues](https://github.com/Watts-College/crj-507-fall-2025/issues/new) page. Thanks!
 
 <br>
 <br>

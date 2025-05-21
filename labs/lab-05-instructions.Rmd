@@ -4,7 +4,7 @@ date: "CRJ 507 Social Network Analysis"
 output: 
   html_document:
     df_print: paged
-    theme: cosmo
+    theme: spacelab
     highlight: haddock
     toc: yes
     toc_float: yes
@@ -109,7 +109,7 @@ ____
 
 <br>
 
-##### ***Please*** report any needed corrections to the [Issues](https://github.com/Watts-College/crj-507-spring-2025/issues/new) page. Thanks!
+##### ***Please*** report any needed corrections to the [Issues](https://github.com/Watts-College/crj-507-fall-2025/issues/new) page. Thanks!
 
 <br>
 <br>

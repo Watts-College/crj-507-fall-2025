@@ -5,7 +5,7 @@ date: "`r format(Sys.time(), '%d %B, %Y')`"
 output: 
   html_document:
     df_print: paged
-    theme: journal
+    theme: flatly
     highlight: haddock
     toc: yes
     toc_float: yes
@@ -31,31 +31,18 @@ knitr::opts_chunk$set( echo = FALSE,
 # clear the workspace
 rm( list = ls() )
 
+
 # load the libraries you will need
+library( SNACpack )
 library( network )
 library( sna )
-
-
-# Load the networks
-
-# set the url
-loc <- "https://github.com/jacobtnyoung/snaca-r/raw/main/data/data-PHX-arrest-2023-net.rds"
-
-# for the 2023
-PhxArrestNet2023 <- readRDS( url( loc ) )
-
-# set the url
-loc <- "https://github.com/jacobtnyoung/snaca-r/raw/main/data/data-PHX-arrest-2022-net.rds"
-
-# for the 2022
-PhxArrestNet2022 <- readRDS( url( loc ) )
 
 ```
 
 
 ## Part I: Two-Mode Network
 
-*What can you tell me about this network?* 
+*What can you tell me about this network and what does it tell me about co-offending?* 
 
 YOUR ANSWER TO THIS QUESTION HERE (THEN DELETE THIS LINE)
 
@@ -69,7 +56,7 @@ YOUR ANSWER TO THIS QUESTION HERE (THEN DELETE THIS LINE)
 
 ## Part II: One-Mode Network
 
-*Who are the central actors in this network?* 
+*How is this network different from Part I and what does it tell me about co-offending?*
 
 YOUR ANSWER TO THIS QUESTION HERE (THEN DELETE THIS LINE)
 
@@ -83,7 +70,7 @@ YOUR ANSWER TO THIS QUESTION HERE (THEN DELETE THIS LINE)
 
 ## Part III: Comparison
 
-*How has the co-offending network changed from 2022 to 2023?* 
+*How has the co-offending network changed from 2023 to 2024?*  
 
 YOUR ANSWER TO THIS QUESTION HERE (THEN DELETE THIS LINE)
 
@@ -92,6 +79,13 @@ YOUR ANSWER TO THIS QUESTION HERE (THEN DELETE THIS LINE)
 # your code here for creating objects here
 
 ```
+
+<br>
+
+## Part IV: Executive Summary
+
+YOUR ANSWER TO THIS QUESTION HERE (THEN DELETE THIS LINE)
+
 
 <br>
 <br>

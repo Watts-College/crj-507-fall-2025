@@ -5,7 +5,7 @@ date: "`r format(Sys.time(), '%d %B, %Y')`"
 output: 
   html_document:
     df_print: paged
-    theme: journal
+    theme: flatly
     highlight: haddock
     toc: yes
     toc_float: yes
@@ -45,8 +45,7 @@ As indicated in the instructions, for *each* network you created, do the followi
 
 1. Create an adjacency matrix using the `matrix()` function.
 2. Create an object of class `network`. 
-3. Plot the network using the `gplot()` function.    
-4. Modify the plot using at least three arguments in the `gplot()` function.  
+3. Plot the network using the `gplot()` function. Modify the plot using at least three arguments in the `gplot()` function.  
 
 As a refresher, review the example below.
 
@@ -176,9 +175,15 @@ Create an object of class `network`.
 
 <br>
 
-### Steps 3 & 4
+### Step 3
 
-Create an object of class `network`. Plot the network using the `gplot()` function. Modify the plot using at least three arguments in the `gplot()` function.    
+Plot the network using the `gplot()` function. Modify the plot using at least three arguments in the `gplot()` function.    
+
+```{r}
+
+# Your code here
+
+```
 
 <br>
 
@@ -216,9 +221,15 @@ Create an object of class `network`.
 
 <br>
 
-### Steps 3 & 4
+### Step 3
 
-Create an object of class `network`. Plot the network using the `gplot()` function. Modify the plot using at least three arguments in the `gplot()` function.    
+Plot the network using the `gplot()` function. Modify the plot using at least three arguments in the `gplot()` function.    
+
+```{r}
+
+# Your code here
+
+```
 
 <br>
 <br>
