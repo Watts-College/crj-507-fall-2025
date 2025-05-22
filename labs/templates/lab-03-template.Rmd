@@ -227,7 +227,7 @@ rm( list = ls() )
 
 <br>
 
-### 4. Without running any code, describe what kind of actor in this network is likely to have a *high* indegree centrality score and a *high* outdegree centrality score. How might that individual be different from someone who has a *high* indegree centrality score but a *low* outdegree centrality score? 
+### 4. Without running any code, describe what kind of actor in this network is likely to have a *high* indegree centrality score and a *high* outdegree centrality score. How might that individual be different from someone who has a *high* indegree centrality score but a *low* outdegree centrality score? Which one is more prevalent in the network?  
 
 **Response**: 
 *ADD YOUR RESPONSE HERE (THEN DELETE THIS STATEMENT)*
@@ -307,9 +307,40 @@ rm( list = ls() )
 
 ## Part III: Your Networks
 
+*Add your code setup here according to the instructions above, then DELETE THESE STATEMENT*
+
+<br>
 <br>
 
-*Add your code setup here according to the instructions above, then DELETE THESE STATEMENT*
+----
+
+<br>
+<br>
+
+
+## *Challenge Question*
+
+Feeling bold? Try this challenge question. It is not required, but try taking a crack at it.
+
+*  Here is an edgelist for a small 6-node directed network:  
+    * A → B  
+    * A → C  
+    * B → C  
+    * C → A  
+    * D → C  
+    * E → F  
+
+**Task:** Without using a computer, sketch this network. 
+
+Then, answer:
+
+  - Which node(s) have the highest indegree?  
+  - Which node is most central by outdegree?  
+
+<br>
+<br>
+
+----
 
 <br>
 <br>

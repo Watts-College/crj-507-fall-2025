@@ -68,7 +68,7 @@ For the `cocaine_dealing_net` network, do the following:
   1. Plot the network using this command: `gplot( cocaine_dealing_net )`.
   2. Describe how you would modify this plot to improve interpretability for a lay audience. Suggest at least <u>three changes</u> and explain why they matter. Be sure to pay attention to the type of network it is and how best to represent the information in the network.
   3. Implement the proposed changes using `gplot()` and describe how each change affects how we see the network.
-  4. Without running any code, describe what kind of actor in this network is likely to have a *high* indegree centrality score and a *high* outdegree centrality score. How might that individual be different from someone who has a *high* indegree centrality score but a *low* outdegree centrality score? 
+  4. Without running any code, describe what kind of actor in this network is likely to have a *high* indegree centrality score and a *high* outdegree centrality score. How might that individual be different from someone who has a *high* indegree centrality score but a *low* outdegree centrality score? Which one is more prevalent in the network? 
   5. Calculate the indegree and outdegree centrality scores for each actor. 
   6. There is one actor with the highest outdegree centrality score. What does this say about their position in the network? What are they doing that makes them have such a high score? (*hint*: think about what the ties measure).
   7. Calculate the standardized indegree and outdegree centrality scores. 
@@ -106,8 +106,8 @@ Feeling bold? Try this challenge question. It is not required, but try taking a 
 
 Then, answer:
 
-  - Which node(s) have the highest in-degree?  
-  - Which node is most central by closeness?  
+  - Which node(s) have the highest indegree?  
+  - Which node is most central by outdegree?  
 
 <br>
 <br>
