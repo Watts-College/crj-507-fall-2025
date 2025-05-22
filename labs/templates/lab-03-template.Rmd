@@ -15,6 +15,10 @@ output:
 
 ```{r setup, include = FALSE}
 
+# Do not adjust these settings
+# as they are here to set up 
+# a few things for you.
+
 knitr::opts_chunk$set( echo = TRUE,
                        eval = TRUE,
                       message = FALSE, 
@@ -27,7 +31,9 @@ knitr::opts_chunk$set( echo = TRUE,
 <br>
 
 ```{r load_packages}
+
 # make sure these are installed on your machine before knitting
+# install.packages( "SNACApack" )
 # install.packages( "network" )
 # install.packages( "sna" )
 #
@@ -35,6 +41,8 @@ knitr::opts_chunk$set( echo = TRUE,
 # called in your RMD file. You only have to install packages
 # once, then they are loaded using the library() function.
 
+# load the packages you need
+library( SNACpack )
 library( network )
 library( sna )
 
@@ -46,7 +54,7 @@ library( sna )
 
 ## Setup
 
-```{r, echo=TRUE, eval=TRUE, message=FALSE, warning=FALSE}
+```{r clear_workspace}
 
 # clear the workspace
 rm( list = ls() )
@@ -55,52 +63,13 @@ rm( list = ls() )
 
 <br>
 
-## Part I
+## Part I: Working with an Undirected Network
 
 <br>
 
-First, let's read in the `LondonGangNet` network that is stored as an .rds document in the data folder on the [Social Network Analysis for Crime Analysts using R](https://jacobtnyoung.github.io/snaca-r/) textbook's [data page](https://github.com/jacobtnyoung/snaca-r/tree/main/data). We will use the `readRDS()` function, with the [file path](https://github.com/jacobtnyoung/snaca-r/raw/main/data/data-london-gang-net.rds), to load the file. Since we are calling a url, we need to use the `url()` function as well.  
+### 1. Plot the network using this command: `gplot( london_gang_net )`.
 
-Finally, we need to make sure the `sna` and `network` packages are loaded, using `library()`, so that R recognizes the `LondonGangNet` object as one of class `network`.
-
-<br>
-
-```{r, echo=TRUE, eval=TRUE, message=FALSE, warning=FALSE}
-
-# load the libraries we need
-library( sna )
-library( network )
-
-# define the path location for the file
-loc <- "https://github.com/jacobtnyoung/snaca-r/raw/main/data/data-london-gang-net.rds"
-LondonGangNet <- readRDS( url( loc ) )
-
-# look at the network
-LondonGangNet
-
-```
-
-<br>
-
-### 1. Plot the network using the `gplot()` function.    
-
-<br>
-
-```{r, echo=TRUE, eval=TRUE}
-
-gplot( 
-  LondonGangNet,               # the network to plot
-  gmode = "graph",             # tell gplot this is an undirected graph
-  main = "London Gang Network" # add a title
-  )
-
-```
-
-<br>
-
-### 2. Calculate the degree centrality score for each actor.  
-
-```{r, echo=TRUE, eval=TRUE}
+```{r}
 
 # Your code here
 
@@ -108,41 +77,118 @@ gplot(
 
 <br>
 
-### 3. Calculate the standardized degree centrality score for each actor.  
+### 2. Describe how you would modify this plot to improve interpretability for a lay audience. Suggest at least <u>three changes</u> and explain why they matter. Be sure to pay attention to the type of network it is and how best to represent the information in the network.  
 
-```{r, echo=TRUE, eval=TRUE}
+**Response**: 
+*ADD YOUR RESPONSE HERE (THEN DELETE THIS STATEMENT)*
+
+<br>
+
+### 3. Implement the proposed changes using `gplot()` and describe how each change affects how we see the network.
+
+```{r}
+
+# Your code here
+
+```
+
+**Response**: 
+*ADD YOUR RESPONSE HERE (THEN DELETE THIS STATEMENT)*
+
+<br>
+
+### 4. Without running any code, describe what kind of actor in this network is likely to have a *high* degree centrality score. 
+
+**Response**: 
+*ADD YOUR RESPONSE HERE (THEN DELETE THIS STATEMENT)*
+
+<br>
+
+### 5. Calculate the degree centrality score for each actor. 
+
+```{r}
+
+# Your code here
+
+```
+
+<br>
+
+### 6. There are three actors with the highest degree centrality scores. Who are they and what does this say about their position in the network?
+
+**Response**: 
+*ADD YOUR RESPONSE HERE (THEN DELETE THIS STATEMENT)*
+
+<br>
+
+### 7. What does it mean to "standardize" degree centrality? Why might we want to do this?
+  
+**Response**: 
+*ADD YOUR RESPONSE HERE (THEN DELETE THIS STATEMENT)*
+
+<br>
+
+### 8. Calculate the standardized degree centrality scores. Are the three actors with the highest degree centrality scores the same individuals with the highest *standardized* degree centrality scores? Why or why not?
+
+```{r}
 
 # standardized score is deg / g-1 where g is the number of nodes.
 
 # add your code here
 
 ```
+  
+**Response**: 
+*ADD YOUR RESPONSE HERE (THEN DELETE THIS STATEMENT)*
 
 <br>
 
-### 4. Calculate the mean degree centrality score.  
+### 9. Calculate the mean degree centrality score. Does the mean degree centrality score represent the "typical" actor in this network? Why or why not?
 
 ```{r}
 
 # Your code here
 
 ```
+  
+**Response**: 
+*ADD YOUR RESPONSE HERE (THEN DELETE THIS STATEMENT)*
 
 <br>
 
-### 5. Calculate the graph centralization for degree centrality.  
+### 10. Graph centralization is often used to assess how "star-like" a network is. What would a completely centralized network look like? What would its degree centrality scores be? Describe it (or, of your feeling fiesty, create one and plot it!).
 
+**Response**: 
+*ADD YOUR RESPONSE HERE (THEN DELETE THIS STATEMENT)*
+
+<br>
+
+### 11. Calculate the graph centralization score for degree centrality. 
+  
 ```{r}
 
 # Your code here
 
 ```
+  
+<br>
+
+### 12. Interpret the score. What does it tell us about the distribution of degree centrality scores in the network? Would you describe the network as centralized or decentralized? Justify your answer using both the score and the plot.
+
+**Response**: 
+*ADD YOUR RESPONSE HERE (THEN DELETE THIS STATEMENT)*
 
 <br>
 
-### 6. Interpret the graph centralization score. What does it tell us about the distribution of degree centrality scores in the network?   
+### 13. Suppose you are an analyst in a gang unit in London. After analyzing this network, what might you do to address gang involvement? How is this informed by your knowledge of the network?
 
-*add your comparison here (THEN DELETE THIS STATEMENT)*
+**Response**: 
+*ADD YOUR RESPONSE HERE (THEN DELETE THIS STATEMENT)*
+
+<br>
+<br>
+
+----
 
 <br>
 <br>
@@ -151,28 +197,7 @@ gplot(
 
 <br>
 
-Now, let's read in the `CocaineDealingNet` network that is stored as an .rds document in the data folder on the [Social Network Analysis for Crime Analysts using R](https://jacobtnyoung.github.io/snaca-r/) textbook's [data page](https://github.com/jacobtnyoung/snaca-r/tree/main/data). We will use the `readRDS()` function, with the [file path](https://github.com/jacobtnyoung/snaca-r/raw/main/data/data-cocaine-dealing-net.rds), to load the file. Since we are calling a url, we need to use the `url()` function as well.  
-
-Above, we needed to make sure the `sna` and `network` packages were loaded, but we loaded them above so we do not need to repeat the step here.
-
-<br>
-
-```{r, echo=TRUE, eval=TRUE}
-
-# define the path location for the file
-loc2 <- "https://github.com/jacobtnyoung/snaca-r/raw/main/data/data-cocaine-dealing-net.rds"
-CocaineDealingNet <- readRDS( url( loc2 ) )
-
-# look at the network
-CocaineDealingNet
-
-```
-
-<br>
-
-### 1. Plot the network using the `gplot()` function.    
-
-<br>
+### 1. Plot the network using this command: `gplot( cocaine_dealing_net )`.
 
 ```{r}
 
@@ -182,7 +207,35 @@ CocaineDealingNet
 
 <br>
 
-### 2. Calculate the indegree and outdegree centrality scores for each actor.  
+### 2. Describe how you would modify this plot to improve interpretability for a lay audience. Suggest at least <u>three changes</u> and explain why they matter. Be sure to pay attention to the type of network it is and how best to represent the information in the network.
+
+**Response**: 
+*ADD YOUR RESPONSE HERE (THEN DELETE THIS STATEMENT)*
+
+<br>
+
+### 3. Implement the proposed changes using `gplot()` and describe how each change affects how we see the network.
+
+```{r}
+
+# Your code here
+
+```
+
+**Response**: 
+*ADD YOUR RESPONSE HERE (THEN DELETE THIS STATEMENT)*
+
+<br>
+
+### 4. Without running any code, describe what kind of actor in this network is likely to have a *high* indegree centrality score and a *high* outdegree centrality score. How might that individual be different from someone who has a *high* indegree centrality score but a *low* outdegree centrality score? 
+
+**Response**: 
+*ADD YOUR RESPONSE HERE (THEN DELETE THIS STATEMENT)*
+
+<br>
+
+### 5. Calculate the indegree and outdegree centrality scores for each actor. 
+
 
 ```{r}
 
@@ -192,7 +245,14 @@ CocaineDealingNet
 
 <br>
 
-### 3. Calculate the standardized indegree and outdegree centrality scores for each actor.  
+### 6. There is one actor with the highest outdegree centrality score. What does this say about their position in the network? What are they doing that makes them have such a high score? (*hint*: think about what the ties measure).
+
+**Response**: 
+*ADD YOUR RESPONSE HERE (THEN DELETE THIS STATEMENT)*
+
+<br>
+
+### 7. Calculate the standardized indegree and outdegree centrality scores. 
 
 ```{r}
 
@@ -202,7 +262,20 @@ CocaineDealingNet
 
 <br>
 
-### 4. Calculate the mean indegree and mean outdegree centrality scores.
+### 8. Calculate the mean indegree and outdegree centrality scores. Interpret each mean centrality score and compare them. Is one larger than the other? What does this mean?
+
+```{r}
+
+# Your code here
+
+```
+
+**Response**: 
+*ADD YOUR RESPONSE HERE (THEN DELETE THIS STATEMENT)*
+
+<br>
+
+### 9. Calculate the graph centralization score for indegree and outdegree centrality. 
 
 ```{r}
 
@@ -212,26 +285,19 @@ CocaineDealingNet
 
 <br>
 
-### 5. Interpret each mean centrality score and compare them. Is one larger than the other? What does this mean?
+### 10. Interpret each score. What does it tell us about the distributions of indegree and outdegree centrality scores in the network? For indegree and outdegree, would you describe the network as centralized or decentralized? Justify your answer using both the score and the plot. Are the scores the same? What does this mean?
 
-*add your comparison here (THEN DELETE THIS STATEMENT)*
-
-<br>
-
-### 6. Calculate the graph centralization for indegree and outdegree centrality.  
-
-```{r}
-
-# Your code here
-
-```
+**Response**: 
+*ADD YOUR RESPONSE HERE (THEN DELETE THIS STATEMENT)*
 
 <br>
 
-### 7. Interpret each graph centralization score and compare them. Is one larger than the other? What does this mean?
+### 11. Suppose you are an analyst in a drug unit examining cocaine trafficking. After analyzing this network, what might you do to address curb cocaine trafficking? How is this informed by your knowledge of the network?
 
-*add your comparison here (THEN DELETE THIS STATEMENT)*
+**Response**: 
+*ADD YOUR RESPONSE HERE (THEN DELETE THIS STATEMENT)*
 
+<br>
 <br>
 
 ----
@@ -239,7 +305,7 @@ CocaineDealingNet
 <br>
 <br>
 
-## Part III:
+## Part III: Your Networks
 
 <br>
 
