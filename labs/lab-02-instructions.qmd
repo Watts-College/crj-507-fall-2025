@@ -1,15 +1,15 @@
 ---
 title: "Lab 02 - Network Visualization - INSTRUCTIONS"
 date: "CRJ 507 Social Network Analysis"
-output: 
-  html_document:
-    df_print: paged
+format:
+  html:
     theme: spacelab
     highlight: haddock
-    toc: yes
-    toc_float: yes
-    code_fold: show
-    self_contained: true
+    toc: true
+    toc-float: true
+    code-fold: true
+    self-contained: true
+    df-print: paged
 ---
 
 ```{r setup, include=FALSE}
