@@ -38,7 +38,7 @@ For the first lab, I would like you to construct a network. Think about a type o
     
 ### B. Draw a picture of the network (by hand is fine)
   
-____  
+<br>
 
 ## Part II
 
@@ -50,11 +50,6 @@ ____
 
 Upload a `.pdf` or `.docx` file to the appropriate link for this assignment on the Canvas page for this course.
 
-____
-
 <br>
 
-##### ***Please*** report any needed corrections to the [Issues](https://github.com/Watts-College/crj-507-fall-2025/issues/new) page. Thanks!
-
-<br>
-<br>
+###### ***Please*** report any needed corrections to the [Issues](https://github.com/Watts-College/crj-507-fall-2025/issues/new) page. Thanks!
