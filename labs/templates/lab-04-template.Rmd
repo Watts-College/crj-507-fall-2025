@@ -24,7 +24,7 @@ knitr::opts_chunk$set( echo = TRUE,
                       message = FALSE, 
                       warning = FALSE, 
                       fig.width = 10, 
-                      fig.height = 6)
+                      fig.height = 6 )
 
 ```
 
@@ -295,6 +295,15 @@ rm( list = ls() )
 
 **Response**: 
 *ADD YOUR RESPONSE HERE (THEN DELETE THIS STATEMENT)*
+
+<br>
+
+### 12. Now, suppose your colleague said "hey, this is a directed graph, but you can calculate the closeness and betweenness assuming it is an undirected graph you know?" Well, of course you know that, but should you? Think about what the directionality in the graph represents and then explain your answer.
+
+**Response**: 
+*ADD YOUR RESPONSE HERE (THEN DELETE THIS STATEMENT)*
+
+
 
 <br>
 <br>
