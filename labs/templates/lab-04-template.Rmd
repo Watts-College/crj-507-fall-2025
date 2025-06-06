@@ -344,8 +344,6 @@ Then, answer:
 
   - Which node(s) have the highest closeness centrality?  
   - Which node(s) have the highest betweenness centrality?  
-  - Which node is most central by closeness?  
-  - Which node is most central by betweenness?
 
 **Response**: 
 *ADD YOUR RESPONSE HERE (THEN DELETE THIS STATEMENT)*

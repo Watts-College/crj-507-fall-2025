@@ -137,7 +137,7 @@ The assigned work for the term comes in the form of three elements, described be
 
 ### Weekly Labs (60%)  
 
-Each week you will receive a short lab that will help you synthesize the material from the week. Weekly labs will receive one of the following scores: 10 (excellent work!), 7 (great start, but there are a few things to fix), 3 (I can see you are working hard, but there are a number of areas that need fixing). Scoring is based on the answers you provide, the cleanliness of the code and output, and proofreading. I will review your lab after it is turned in and provide feedback. *NOTE*: Weekly labs <u>can</u> be **resubmitted** once. You can make revisions to your lab, based on my feedback, and I will regrade it (once). For example, if you turn in a lab, receive a score of 7, and then revise the lab based on my feedback, you could earn a 10. **Re**-submissions with revisions will be accepted up to the day that the lab is due. Lab submissions or **re**-submissions <u>will not be</u> accepted after the lab solutions are distributed. 
+Each week you will receive a short lab that will help you synthesize the material from the week. Weekly labs will receive one of the following scores: 10 (excellent work!), 7 (great start, but there are a few things to fix), 3 (I can see you are working hard, but there are a number of areas that need fixing). Scoring is based on the answers you provide, the cleanliness of the code and output, and proofreading. I will review your lab after it is turned in and provide feedback. *NOTE*: Weekly labs <u>can</u> be **resubmitted** once. You can make revisions to your lab, based on my feedback, and I will regrade it (once). For example, if you turn in a lab, receive a score of 7, and then revise the lab based on my feedback, you could earn a 10. **Re**-submissions with revisions will be accepted up to the day that the lab is due. Lab submissions or **re**-submissions <u>will not be</u> accepted after the review session as we will be going through the solutions. 
 
 #### Lab Review Sessions
 
@@ -179,7 +179,7 @@ Most assignments in this course are labs that are graded pass-fail based upon co
 
 ## E. Late and Missing Assignments
 
-Grades for the course are largely based on weekly labs. Assigned work is accompanied by detailed instructions, adequate time for completion and opportunities to consult the instructor with questions. As a result, each assignment element in the course is expected to be completed in a timely fashion by the due date. Once solutions are posted it is no longer possible to receive points for assignments.
+Grades for the course are largely based on weekly labs. Assigned work is accompanied by detailed instructions, adequate time for completion and opportunities to consult the instructor with questions. As a result, each assignment element in the course is expected to be completed in a timely fashion by the due date. After the review session, it is no longer possible to receive points for assignments.
 
 ## F. Course Communications and Instructor Feedback:
 

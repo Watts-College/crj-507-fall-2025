@@ -13,7 +13,7 @@ format:
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set (echo = TRUE )
+knitr::opts_chunk$set ( echo = TRUE )
 ```
 
 # Introduction
@@ -118,8 +118,6 @@ Then, answer:
 
   - Which node(s) have the highest closeness centrality?  
   - Which node(s) have the highest betweenness centrality?  
-  - Which node is most central by closeness?  
-  - Which node is most central by betweenness?
 
 <br>
 <br>
