@@ -51,13 +51,13 @@ For the `paul_revere_net` network, do the following:
 11. Calculate the mean standardized degree centrality score.  
 12. Plot the network using the standardized degree centrality scores. 
 13. Does the visualization change your interpretation of the prompts above? What do you observe that is different (or the same) about the structure of the network given the addition of centrality scores to the plot?
-14. Using the vertex attribute `people.names`, identify which individual is most central in the network.
+14. Using the vertex attribute `people_names`, identify which individual is most central in the network.
 15. What might their position in the network suggest about their role in this historical context?
-16. Using the vertex attribute `place.names`, identify which location is most central in the network.
+16. Using the vertex attribute `place_names`, identify which location is most central in the network.
 17. Why might this place have been especially important in terms of connectivity?
 18. Suppose you are an analyst for the British in the 18th century. You are given this network. What is your approach to addressing a potential rebellion in the colonies of British America? Explain.
 
-*Note*: for 14 and 16, you can access the vertex attribute using the `paul_revere_net %v% "people.names"` and `paul_revere_net %v% "place.names"`, respectively.
+*Note*: for 14 and 16, you can access the vertex attribute using the `paul_revere_net %v% "people_names"` and `paul_revere_net %v% "place_names"`, respectively.
 
 <br>
 

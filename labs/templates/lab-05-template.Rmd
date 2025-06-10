@@ -183,7 +183,7 @@ rm( list = ls() )
 
 <br>
 
-### 14. Using the vertex attribute `people.names`, identify which individual is most central in the network.
+### 14. Using the vertex attribute `people_names`, identify which individual is most central in the network.
 
 ```{r}
 
@@ -203,7 +203,7 @@ rm( list = ls() )
 
 <br>
 
-### 16. Using the vertex attribute `place.names`, identify which location is most central in the network.
+### 16. Using the vertex attribute `place_names`, identify which location is most central in the network.
 
 ```{r}
 
