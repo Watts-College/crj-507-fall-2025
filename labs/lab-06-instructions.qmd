@@ -35,7 +35,7 @@ For the `paul_revere_net` network, do the following:
 1. Create an object of class `matrix` from the `paul_revere_net` network. Use the `as.sociomatrix()` function in the `network` package to do so. ( **NOTE: DO NOT PRINT OUT THE MATRIX**).
 2. Create the unipartite graph that represents the *person* matrix.
 3. Create the unipartite graph that represents the *group* matrix.
-4. Plot all three networks. Use the `edge_rescale()` and `edge_shade()` functions in the `SNACpack` package to use the edge weights in the plots for each projected graph. How does visualizing edge weight help interpret the structure?
+4. Plot all three networks. Use the `edge_rescale()` and `edge_shade()` functions in the `SNACpack` package to use the edge weights in the plots for each projected graph. **NOTE**: This will take a bit longer to plot because there are a lot of edges (just an FYI). How does visualizing edge weight help interpret the structure?
 
 ### *person* Matrix Projection
 
