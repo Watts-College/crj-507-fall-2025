@@ -433,7 +433,7 @@ Feeling bold? Try this challenge question. It is not required, but try taking a 
 Then, answer:
 
   - Which node(s) have the largest degree centrality?  
-  - Which node(s) have the smallest centrality?  
+  - Which node(s) have the smallest degree centrality?  
 
 **Response**: 
 *ADD YOUR RESPONSE HERE (THEN DELETE THIS STATEMENT)*
