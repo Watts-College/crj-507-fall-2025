@@ -365,6 +365,10 @@ rm( list = ls() )
 
 ```{r}
 
+# Note that since closeness is all zeros, you can add a 
+# small amount of noise to not break the vertex_rescale() function.
+close_pkn_P[1] <- 0.000001
+
 # Your code here
 
 ```
