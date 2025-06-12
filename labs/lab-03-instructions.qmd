@@ -45,7 +45,7 @@ For the `london_gang_net` network, do the following:
   7. What does it mean to "standardize" degree centrality? Why might we want to do this?
   8. Calculate the standardized degree centrality scores. Are the three actors with the highest degree centrality scores the same individuals with the highest *standardized* degree centrality scores? Why or why not?
   9. Calculate the mean degree centrality score. Does the mean degree centrality score represent the "typical" actor in this network? Why or why not?
-  10. Graph centralization is often used to assess how "star-like" a network is. What would a completely centralized network look like? What would its degree centrality scores be? Describe it (or, of your feeling fiesty, create one and plot it!).
+  10. Graph centralization is often used to assess how "star-like" a network is. What would a completely centralized network look like? What would its degree centrality scores be? Describe it (or, if your feeling feisty, create one and plot it!).
   11. Calculate the graph centralization score for degree centrality. 
   12. Interpret the score. What does it tell us about the distribution of degree centrality scores in the network? Would you describe the network as centralized or decentralized? Justify your answer using both the score and the plot.
   13. Suppose you are an analyst in a gang unit in London. After analyzing this network, what might you do to address gang involvement? How is this informed by your knowledge of the network?

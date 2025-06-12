@@ -136,7 +136,7 @@ ____
 
 # How to Submit
 
-Download the [template for this lab](../labs/templates/lab-04-LastName.zip?raw=true) prior to beginning the lab. **The template contains code for accessing the data files**.
+Download the [template for this lab](../labs/templates/lab-05-LastName.zip?raw=true) prior to beginning the lab. **The template contains code for accessing the data files**.
 
 <br>
 
