@@ -45,7 +45,7 @@ For the `london_gang_net` network, do the following:
   7. What does it mean to "standardize" degree centrality? Why might we want to do this?
   8. Calculate the standardized degree centrality scores. Are the three actors with the highest degree centrality scores the same individuals with the highest *standardized* degree centrality scores? Why or why not?
   9. Calculate the mean degree centrality score. Does the mean degree centrality score represent the "typical" actor in this network? Why or why not?
-  10. Graph centralization is often used to assess how "star-like" a network is. What would a completely centralized network look like? What would its degree centrality scores be? Describe it (or, if your feeling feisty, create one and plot it!).
+  10. Graph centralization is often used to assess how "star-like" a network is. What would a completely centralized network look like? What would its degree centrality scores be? Describe it (or, if you are feeling feisty, create one and plot it!).
   11. Calculate the graph centralization score for degree centrality. 
   12. Interpret the score. What does it tell us about the distribution of degree centrality scores in the network? Would you describe the network as centralized or decentralized? Justify your answer using both the score and the plot.
   13. Suppose you are an analyst in a gang unit in London. After analyzing this network, what might you do to address gang involvement? How is this informed by your knowledge of the network?
@@ -70,12 +70,12 @@ For the `cocaine_dealing_net` network, do the following:
   3. Implement the proposed changes using `gplot()` and describe how each change affects how we see the network.
   4. Without running any code, describe what kind of actor in this network is likely to have a *high* indegree centrality score and a *high* outdegree centrality score. How might that individual be different from someone who has a *high* indegree centrality score but a *low* outdegree centrality score? Which one is more prevalent in the network? 
   5. Calculate the indegree and outdegree centrality scores for each actor. 
-  6. There is one actor with the highest outdegree centrality score. What does this say about their position in the network? What are they doing that makes them have such a high score? (*hint*: think about what the ties measure).
+  6. There is one actor with the highest outdegree centrality score. What does this say about their position in the network? What behavior or role might explain their high score? (*hint*: think about what the ties measure).
   7. Calculate the standardized indegree and outdegree centrality scores. 
   8. Calculate the mean indegree and outdegree centrality scores. Interpret each mean centrality score and compare them. Is one larger than the other? What does this mean?
   9. Calculate the graph centralization score for indegree and outdegree centrality. 
   10. Interpret each score. What does it tell us about the distributions of indegree and outdegree centrality scores in the network? For indegree and outdegree, would you describe the network as centralized or decentralized? Justify your answer using both the score and the plot. Are the scores the same? What does this mean?
-  11. Suppose you are an analyst in a drug unit examining cocaine trafficking. After analyzing this network, what might you do to address curb cocaine trafficking? How is this informed by your knowledge of the network?
+  11. Suppose you are an analyst in a drug unit examining cocaine trafficking. After analyzing this network, what might you do to curb cocaine trafficking? How is this informed by your knowledge of the network?
 
 <br>
 
@@ -136,8 +136,8 @@ Upload both your `.RMD` and `.HTML` files to the appropriate link for this assig
 
 Remember to ensure the following before submitting your assignment.
 
-1. Name your files using this format: **Lab-##-LastName.rmd** and **Lab-##-LastName.html**
-2. Show both the solution for your code and write out your answers in the body text 
+  * Name your files using this format: **Lab-##-LastName.rmd** and **Lab-##-LastName.html**
+  * Show both the solution for your code and write out your answers in the body text 
 
 See [Google's R Style Guide](https://google.github.io/styleguide/Rguide.xml) for examples of common conventions.
 

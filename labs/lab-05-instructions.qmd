@@ -41,7 +41,7 @@ For the `paul_revere_net` network, do the following:
 1. Plot the network using the `gplot()` function.
 2. Based on the plot, what do you observe about the structure of the network? Can you tell which nodes are people and which are locations? What would be your overall assessment of how the network is organized?
 3. Calculate the density of the network.
-4. Interpret the density of the network. What does this number represent in the context of network where individuals are connected to each other through shared places? 
+4. Interpret the density of the network. What does this number represent in the context of a network where individuals are connected to each other through shared places? 
 5. Is this a "dense" network in your opinion? Why or why not?
 6. Calculate the degree centrality scores for each set of nodes.  
 7. Calculate the mean degree centrality scores. Interpret the values.
@@ -86,10 +86,9 @@ For the `philippine_kidnappings_net` network, do the following:
 11. Plot the network using the standardized degree centrality scores. 
 12. What stands out now that didn’t before? Do any individuals or events appear more structurally important? Has your interpretation of the network’s structure changed?
 13. Using the vertex attribute `vertex.names`, identify which individual is most central in the network.
-14. Envision yourself as an analyst trying to reduce kidnapping events (such as these). Based on this network, what is your strategy? Explain.
+14. Envision yourself as an analyst tasked with reducing kidnapping events like these. Based on this network, what is your strategy? Explain.
 
 *Note*: for 13, you can access the vertex attribute using `philippine_kidnappings_net %v% "vertex.names"`.
-
 
 <br>
 
@@ -107,7 +106,7 @@ After creating your bipartite network, do the following:
 6. Calculate the mean degree centrality scores.
 7. Calculate the mean standardized degree centrality score.  
 8. Plot the network using the standardized degree centrality scores. 
-9. Based on the plot, what would you say about the structure of your network?
+9. Based on the plot, what would you say about the structure of your network? Is your network centralized or decentralized? Are certain nodes clearly more connected? Any surprising patterns?
 
 <br>
 
@@ -156,8 +155,8 @@ Upload both your `.RMD` and `.HTML` files to the appropriate link for this assig
 
 Remember to ensure the following before submitting your assignment.
 
-1. Name your files using this format: **Lab-##-LastName.rmd** and **Lab-##-LastName.html**
-2. Show both the solution for your code and write out your answers in the body text 
+* Name your files using this format: **Lab-##-LastName.rmd** and **Lab-##-LastName.html**
+* Show both the solution for your code and write out your answers in the body text 
 
 See [Google's R Style Guide](https://google.github.io/styleguide/Rguide.xml) for examples of common conventions.
 
