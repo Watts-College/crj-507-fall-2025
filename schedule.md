@@ -5,8 +5,8 @@ title: Schedule
 base: 'https://github.com/Watts-College/crj-507-fall-2025/raw/main/'
 
 canvas:
-  assignment_url: 'https://canvas.asu.edu/courses/204183/assignments'
-  yellowdig_url: 'https://canvas.asu.edu/courses/204183/assignments/5662983'
+  assignment_url: 'https://canvas.asu.edu/courses/224565/assignments'
+  yellowdig_url: 'https://canvas.asu.edu/courses/224565/assignments/6287327'
 
 lab-due-dates:
   lab-01: 'TUES August 26'
@@ -1113,7 +1113,7 @@ Download the recommended template for your final project with the below link.
 
 <style>
 body {
-   font-family: "Roboto", sans-serif;
+   font-family: "Inter", sans-serif;
 }
 
 p.italic {

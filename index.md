@@ -14,7 +14,7 @@ info:
  course_title: Social Network Analysis
  course_number: CRJ 507
  course_level: Graduate
- course_website: 'https://canvas.asu.edu/courses/204183'
+ course_website: 'https://canvas.asu.edu/courses/224565'
  course_start_end_dates: August 21st - October 10th, 2025
  course_prerequisites:  
  class_meets_when:  Asynchronous  
@@ -183,7 +183,7 @@ Grades for the course are largely based on weekly labs. Assigned work is accompa
 
 ## F. Course Communications and Instructor Feedback:
 
-**Course content** is hosted on this website. Lecture files, assignments and other course communications will be transmitted via this site and/or through the class email list. **All assignment submissions** will be made through the [**Canvas shell**](https://canvas.asu.edu/courses/204183).
+**Course content** is hosted on this website. Lecture files, assignments and other course communications will be transmitted via this site and/or through the class email list. **All assignment submissions** will be made through the [**Canvas shell**](https://canvas.asu.edu/courses/224565).
 
 Please post lab questions on the [**Get Help**](https://watts-college.github.io/crj-507-fall-2025/help/) page on this site, schedule individual office hours using the [Calendly link](https://calendly.com/jacobtnyoung/crj-507-student-meeting), and [email me](mailto:CRJ507@asu.edu) directly instead of using the Canvas system.
 
@@ -233,7 +233,7 @@ Visit the [**Course Schedule**](https://watts-college.github.io/crj-507-fall-202
 <style>
 
 body {
-   font-family: "Roboto", sans-serif;
+   font-family: "Inter", sans-serif;
 }
 
 p {
