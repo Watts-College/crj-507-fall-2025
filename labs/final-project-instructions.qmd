@@ -1,15 +1,5 @@
 ---
 title: "Final Project - INSTRUCTIONS"
-date: "CRJ 507 Social Network Analysis"
-output: 
-  html_document:
-    df_print: paged
-    theme: spacelab
-    highlight: haddock
-    toc: yes
-    toc_float: yes
-    code_fold: show
-    self_contained: true
 ---
 
 ```{r setup, include=FALSE}

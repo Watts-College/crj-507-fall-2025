@@ -1,15 +1,5 @@
 ---
 title: "Lab 06 - Projection of Bipartite Graphs - INSTRUCTIONS"
-subtitle: "CRJ 507 Social Network Analysis"
-format:
-  html:
-    theme: spacelab
-    highlight: haddock
-    toc: true
-    toc-float: true
-    code-fold: true
-    self-contained: true
-    df-print: paged
 ---
 
 ```{r setup, include=FALSE}
