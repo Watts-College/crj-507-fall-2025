@@ -29,7 +29,7 @@ instructor:
    office_location: UCENT 649
    website_url: 'https://jacobtnyoung.github.io/'
    github_url:  'https://github.com/jacobtnyoung'
-   office_hours_time: Mondays and Tuesdays 10:30am-11:30am & 2:30pm-3:30pm (AZ time)
+   office_hours_time: Mondays 10:30am-11:30am & Tuesdays 2:00pm-3:00pm (AZ time)
    office_hours_app_url: 'https://calendly.com/jacobtnyoung/crj-507-student-meeting'
    office_hours_location: Zoom
 
