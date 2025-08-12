@@ -29,9 +29,9 @@ instructor:
    office_location: UCENT 649
    website_url: 'https://jacobtnyoung.github.io/'
    github_url:  'https://github.com/jacobtnyoung'
-   office_hours_time: Mondays 10:30am-11:30am & Tuesdays 2:00pm-3:00pm (AZ time)
+   office_hours_time: Mon 10:30–11:30am & Tue 2–3pm (AZ time)
    office_hours_app_url: 'https://calendly.com/jacobtnyoung/crj-507-student-meeting'
-   office_hours_location: Zoom
+   office_hours_location: 
 
 
 textbooks:
@@ -79,7 +79,7 @@ Students will demonstrate competency in understanding, producing, and communicat
 
 1. Weekly labs that provide opportunities to consolidate and apply material from the readings and tutorials
 2. Discussion topics on social networks concepts as they pertain to crime and criminal justice
-3. A final project that integrate several skills developed through the course  
+3. A final project that integrates several skills developed through the course  
 
 Assigned work, including the final course project as well as regular, active participation in online discussion sessions (a critical part of the course learning strategy) are the tools the instructor will use to measure comprehension and skill. The course grade is a direct reflection of demonstrated performance. Students should take stated expectations seriously regarding preparation, conduct, and academic honesty in order to receive a grade reflecting outstanding performance.  
 
@@ -91,7 +91,7 @@ Assigned work, including the final course project as well as regular, active par
 
 ### Incremental Progression
 
-Mastering the concepts of social network analysis as well as the data programming skills needed to conduct network analysis is like learning a language. You start by mastering basic vocabulary that is specific. Through your coursework you will become conversant in how network scholars talk about networks as well as approaches to analysis of networks. Progress might be slow at first as you work to master core concepts, integrate the building blocks into a coherent mental model of real-world problems, learn to translate technical results into clear narratives for non-technical audiences, and become comfortable with data programming skills. This is just part of the process. It sort of feels like this:
+Mastering the concepts of social network analysis as well as the data programming skills needed to conduct network analysis is like learning a language. You start by mastering basic vocabulary that is specific to the field. Through your coursework you will become conversant in how network scholars talk about networks as well as approaches to analysis of networks. Progress might be slow at first as you work to master core concepts, integrate the building blocks into a coherent mental model of real-world problems, learn to translate technical results into clear narratives for non-technical audiences, and become comfortable with data programming skills. This is just part of the process. It sort of feels like this:
 
 <br>
 
@@ -113,7 +113,7 @@ You will be much better off spending a small amount of time each day on the mate
 
 Online discussion boards are designed for students to engage with the material together. The purpose of online discussion sessions is threefold: (1) the online discussion sessions allow students to interact with their peers and share ideas and interpretations of the assigned material, (2) such peer-to-peer discussion online helps build professional relationships with potential future colleagues in the field, and (3) the discussions permit the instructor to assess student engagement with the assigned material.
 
-The online discussions are explicitly intended to meet the objectives stated above. They are not intended as another form of readings or tutorial where the instructor provides commentary and students simply react. Rather, the discussions are a chance for peer-to-peer interaction and proactive engagement by each individual student.
+The online discussions are explicitly intended to meet the objectives stated above. They are not intended as another form of readings or tutorial where the instructor provides commentary, and students simply react. Rather, the discussions are a chance for peer-to-peer interaction and proactive engagement by each individual student.
 
 ## B. Assigned Reading Materials
 
@@ -137,7 +137,7 @@ The assigned work for the term comes in the form of three elements, described be
 
 ### Weekly Labs (60%)  
 
-Each week you will receive a short lab that will help you synthesize the material from the week. Weekly labs will receive one of the following scores: 10 (excellent work!), 7 (great start, but there are a few things to fix), 3 (I can see you are working hard, but there are a number of areas that need fixing). Scoring is based on the answers you provide, the cleanliness of the code and output, and proofreading. I will review your lab after it is turned in and provide feedback. *NOTE*: Weekly labs <u>can</u> be **resubmitted** once. You can make revisions to your lab, based on my feedback, and I will regrade it (once). For example, if you turn in a lab, receive a score of 7, and then revise the lab based on my feedback, you could earn a 10. **Re**-submissions with revisions will be accepted up to the day that the lab is due. Lab submissions or **re**-submissions <u>will not be</u> accepted after the review session as we will be going through the solutions. 
+Each week you will receive a short lab that will help you synthesize the material from the week. Weekly labs will receive one of the following scores: 10 (excellent work!), 7 (great start, but there are a few things to fix), 3 (I can see you are working hard, but there are a number of areas that need fixing). Scoring is based on the answers you provide, the cleanliness of the code and output, and proofreading of the entire document. I will review your lab after it is turned in and provide feedback. *NOTE*: Weekly labs <u>can</u> be **resubmitted** once. You can make revisions to your lab, based on my feedback, and I will regrade it (once). For example, if you turn in a lab, receive a score of 7, and then revise the lab based on my feedback, you could earn a 10. **Re**-submissions with revisions will be accepted up to the day that the lab is due. Lab submissions or **re**-submissions <u>will not be</u> accepted after the review session as we will be going through the solutions. 
 
 #### Lab Review Sessions
 
@@ -187,7 +187,7 @@ Grades for the course are largely based on weekly labs. Assigned work is accompa
 
 Please post lab questions on the [**Get Help**](https://watts-college.github.io/crj-507-fall-2025/help/) page on this site, schedule individual office hours using the [Calendly link](https://calendly.com/jacobtnyoung/crj-507-student-meeting), and [email me](mailto:CRJ507@asu.edu) directly instead of using the Canvas system.
 
-Be aware that I will attempt to respond to any course-related email as quickly as possible. I ask that you allow between 24 and 48 hours as a reasonable time to reply to questions or other issues posed in an email. Additionally, the general timeline for grading or other feedback on assignments, either writer work or online discussion work, is between 5 and 10 work days.
+Be aware that I will attempt to respond to any course-related email as quickly as possible. I ask that you allow between 24 and 48 hours as a reasonable time to reply to questions or other issues posed in an email. Additionally, the general timeline for grading and feedback on assignments is no more than 5 work days.
 
 ASU email is the official means of communication among students, faculty, and staff. You bear the responsibility of missed messages and should check your ASU-assigned email regularly. All correspondence will be sent to your ASU email account. Please ensure Canvas notifications are being sent to your email.
 
@@ -207,11 +207,11 @@ For more information, refer to the [**Office of the Provost's Guide to Academic 
 
 # I. Student Learning Environment: Accommodations
 
-**Disability Accommodations:**  Students should be fully aware that the Arizona State University, the MA in EMHS program, and all program course instructors are committed to providing reasonable accommodation and access to programs and services to persons with disabilities. Students with disabilities who wish to seek academic accommodations must contact the ASU Disability Resources Center directly.  Information on the Center&#39;s procedures, resources and how to contact its staff can be found at the [**Disability Resource Center**](https://eoss.asu.edu/drc/).  The Disability Resources Center is responsible for reviewing any student&#39;s requests; once that review has taken place, the Center will provide the student with appropriate information on academic accommodations which in turn will be provided to the course instructor.
+**Disability Accommodations:**  Students should be aware that Arizona State University is committed to providing reasonable accommodation and access to programs and services to persons with disabilities. Students with disabilities who wish to seek academic accommodations must contact the ASU Disability Resources Center directly.  Information on the Center&#39;s procedures, resources and how to contact its staff can be found at the [**Disability Resource Center**](https://eoss.asu.edu/drc/).  The Disability Resources Center is responsible for reviewing any student&#39;s requests; once that review has taken place, the Center will provide the student with appropriate information on academic accommodations which in turn will be provided to the course instructor.
 
-**Religious accommodations:** Students will not be penalized for missing an assignment due solely to a religious holiday/observance, but as this class operates with a fairly flexible schedule, all efforts should be made to complete work within the required timeframe. If this is not possible, students must notify the instructor as far in advance as possible in order to make an alternative arrangement.
+**Religious accommodations:** Students will not be penalized for missing an assignment due solely to a religious holiday or observance, but as this class operates with a fairly flexible schedule, all efforts should be made to complete work within the required timeframe. If this is not possible, students must notify the instructor as far in advance as possible in order to make an alternative arrangement.
 
-**Military Accommodations:** A student who is a member of the National Guard, Reserve, or other branch of the armed forces and is unable to complete classes because of military activation may request complete or partial unrestricted administrative withdrawals or incompletes depending on the timing of the activation. For more information see [**ASU Policy USI 201-18**](http://www.asu.edu/aad/manuals/usi).
+**Military Accommodations:** A student who is a member of the National Guard, Reserve, or other branch of the armed forces and is unable to complete classes because of military activation may request complete or partial unrestricted administrative withdrawals or incomplete depending on the timing of the activation. For more information see [**ASU Policy USI 201-18**](http://www.asu.edu/aad/manuals/usi).
 
 # J. Additional Syllabus Content
 
