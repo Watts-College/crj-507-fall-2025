@@ -21,7 +21,7 @@ For the first lab, I would like you to construct a network. Think about a type o
   1. Is the network one mode or multi-mode?
   2. What do the points (i.e. nodes) represent? If multiple modes, describe what each mode represents.
   3. What do the ties (i.e. edges) represent?
-  4. Are the ties simplex or multiplex? If multiple, be describe what each edge represents.
+  4. Are the ties simplex or multiplex? If multiplex, describe what each edge in each edge set represents.
   5. Are the ties undirected or directed? Binary/Weighted/Signed?
   6. What type of edge is it? (social relationship? Interactions? Flow?)
   7. Why did you pick this network?
@@ -35,6 +35,7 @@ For the first lab, I would like you to construct a network. Think about a type o
 
 After completing Part I, create a new network and repeat Part I on that network.
 
+<br>
 ____
 
 # How to Submit
