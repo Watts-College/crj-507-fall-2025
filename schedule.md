@@ -56,7 +56,7 @@ Hi there! My name is [Jacob Young](https://jacobtnyoung.github.io/) and I will b
 
 ## What is Social Network Analysis?
 
-Network science is an approach to science that views the world as being composed of systems of actors connected through relational ties (i.e. a network). Network science takes these relational structures as the primary domain of interest. In so doing, research questions take the following forms: How does the network matter? What effects the network? Network analysis is the set of tools used to study relational variables. A set of methods for systematically understanding and identifying connections among actors. This course will introduce you to these tools and their application to problems in the the field of criminology and criminal justice.
+Network science is an approach to science that views the world as being composed of systems of actors connected through relational ties (i.e. a network). Network science takes these relational structures as the primary domain of interest. In so doing, research questions take the following forms: How does the network matter? What effects the network? Network analysis is the set of tools used to study relational variables. A set of methods for systematically understanding and identifying connections among actors. This course will introduce you to these tools and their application to problems in the field of criminology and criminal justice.
 
 In this course you will learn how to use R and RStudio to import, analyze, and report on social networks.
 
@@ -359,7 +359,7 @@ Once you have completed this section you will be able to answer the following qu
 
 * What is “network science” and how is it different from “usual” research?
 * What do networks “look like”?
-* What is R and and RStudio and how do I use these programs?
+* What is R and RStudio and how do I use these programs?
 * What are "data-driven documents" and how do I use them for this course?
 
 ## Assigned Reading
@@ -376,7 +376,7 @@ Required reading for this unit includes:
 
 ## Lab Assignment
 
-In this lab you will provide you the opportunity to start thinking about networks and get your "feet wet" in social network analysis. For the first lab, you will construct several networks of your own that you will work with throughout the course. 
+This lab will provide you the opportunity to start thinking about networks and get your "feet wet" in social network analysis. For the first lab, you will construct several networks of your own that you will work with throughout the course. 
 
 *** { @unit = "", @title = "Readings", @reading, @foldout  }
 
@@ -441,7 +441,7 @@ You can earn up to 20 points a week, and points reset on Fridays. You need to ea
 
 ## Lab 1 - Introduction to Network Analysis
 
-This lab you will provide you the opportunity to start thinking about networks and get your "feet wet" in social network analysis. For the first lab, you will construct several networks of your own that you will work with throughout the course. 
+This lab will provide you the opportunity to start thinking about networks and get your "feet wet" in social network analysis. For the first lab, you will construct several networks of your own that you will work with throughout the course. 
 
 <a class="uk-button uk-button-default" onclick="window.open('../labs/lab-01-instructions.html')">LAB 1 Instructions</a>
 
@@ -475,7 +475,7 @@ This lab you will provide you the opportunity to start thinking about networks a
 
 ## Description
 
-This section will focus on how we represent network data as matrices. We will also cover some basics of how to describe a network. Finally, we will also examine how we can create networks in R as well has how we visualize networks. 
+This section will focus on how we represent network data as matrices. We will also cover some basics of how to describe a network. Finally, we will also examine how we can create networks in R as well as how we visualize networks. 
 
 ## Learning Objectives
 
@@ -744,7 +744,7 @@ Required reading for this unit includes:
 
 ## Lab Assignment
 
-In Lab 4 we will focus on familiarizing yourself with calculating closeness centrality and betweeness centrality scores as well as centralization scores for undirected and directed networks in R. We will revisit the networks we used in [Lab 3 - Degree Centrality and Centralization](../labs/lab-03-instructions.html) to assess how different centrality measures tell us a different (or the same) story about what it means to be "central" in a network. 
+In Lab 4 we will focus on familiarizing yourself with calculating closeness centrality and betweenness centrality scores as well as centralization scores for undirected and directed networks in R. We will revisit the networks we used in [Lab 3 - Degree Centrality and Centralization](../labs/lab-03-instructions.html) to assess how different centrality measures tell us a different (or the same) story about what it means to be "central" in a network. 
 
 <br>
 <br>
@@ -805,7 +805,7 @@ How does betweenness centrality operate as an intervention procedure in their st
 
 ## Lab 4 - Closeness/Betweenness Centrality
 
-In Lab 4 we will focus on familiarizing yourself with calculating closeness centrality and betweeness centrality scores as well as centralization scores for undirected and directed networks in R. We will revisit the networks we used in [Lab 3 - Degree Centrality and Centralization](../labs/lab-03-instructions.html) to assess how different centrality measures tell us a different (or the same) story about what it means to be "central" in a network. 
+In Lab 4 we will focus on familiarizing yourself with calculating closeness centrality and betweenness centrality scores as well as centralization scores for undirected and directed networks in R. We will revisit the networks we used in [Lab 3 - Degree Centrality and Centralization](../labs/lab-03-instructions.html) to assess how different centrality measures tell us a different (or the same) story about what it means to be "central" in a network. 
 
 <a class="uk-button uk-button-default" onclick="window.open('../labs/lab-04-instructions.html')">LAB 4 Instructions</a>
 
@@ -864,9 +864,9 @@ Required reading for this unit includes:
 
 Lab 5 will provide the opportunity to continue to familiarize yourself with bipartite graphs and two-mode networks in *R*. You will work with two networks. 
 
-First, you will use data collected from [Paul Revere's Ride](https://global.oup.com/ushe/product/paul-reveres-ride-9780195098310?cc=us&lang=en&), by David Fischer. In the book, Fischer documents Reveres connections through various affiliations in locations and how these influenced history. The Paul Revere conspiracy dataset concerns relationships between 254 people and their affiliations with seven different organizations in Boston. The network is two-mode, with 254 actors and 7 organizations ("events"). 
+First, you will use data collected from [Paul Revere's Ride](https://global.oup.com/ushe/product/paul-reveres-ride-9780195098310?cc=us&lang=en&), by David Fischer. In the book, Fischer documents Revere's connections through various affiliations in locations and how these influenced history. The Paul Revere conspiracy dataset concerns relationships between 254 people and their affiliations with seven different organizations in Boston. The network is two-mode, with 254 actors and 7 organizations ("events"). 
 
-Second, you will use the Philippine Kidnappings Data which is a collection of relationships on the Abu Sayyaf Group (ASG), a violent non-state actor operating in the Southern Philippines. In particular, this data is related to the Salast movement that has been founded by Aburajak Janjalani, a native terrorist of the Southern Philippines in 1991. ASG is active in kidnapping and other terrorist attacks. The network is two-mode, with 246 actors (i.e.terrorist kidnappers) and 105 terrorist events the actors attended. 
+Second, you will use the Philippine Kidnappings Data which is a collection of relationships on the Abu Sayyaf Group (ASG), a violent non-state actor operating in the Southern Philippines. In particular, this data is related to the Salast movement that was founded by Aburajak Janjalani, a native terrorist of the Southern Philippines in 1991. ASG is active in kidnapping and other terrorist attacks. The network is two-mode, with 246 actors (i.e., terrorist kidnappers) and 105 terrorist events the actors attended. 
 
 <br>
 <br>
@@ -980,7 +980,7 @@ Required reading for this unit includes:
 * Textbook Chapters
     * [Projection](https://jacobtnyoung.github.io/snaca-textbook/snaca-projection.html)
 * Software Tutorials
-    * [Projection & Weigthed Networks](https://jacobtnyoung.github.io/snaca-r/snaca-r-projection.html)
+    * [Projection & Weighted Networks](https://jacobtnyoung.github.io/snaca-r/snaca-r-projection.html)
 
 <br>
 
