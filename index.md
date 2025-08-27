@@ -14,7 +14,6 @@ info:
  course_title: Social Network Analysis
  course_number: CRJ 507
  course_level: Graduate
- course_website: https://canvas.asu.edu/courses/224565
  course_start_end_dates: August 21st - October 10th, 2025
  course_prerequisites:  
  class_meets_when:  Asynchronous  
