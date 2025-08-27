@@ -56,7 +56,7 @@ Hi there! My name is [Jacob Young](https://jacobtnyoung.github.io/) and I will b
 
 ## What is Social Network Analysis?
 
-Network science is an approach to science that views the world as being composed of systems of actors connected through relational ties (i.e. a network). Network science takes these relational structures as the primary domain of interest. In so doing, research questions take the following forms: How does the network matter? What effects the network? Network analysis is the set of tools used to study relational variables. A set of methods for systematically understanding and identifying connections among actors. This course will introduce you to these tools and their application to problems in the field of criminology and criminal justice.
+Network science is an approach to science that views the world as being composed of systems of actors connected through relational ties (i.e. a network). Network science takes these relational structures as the primary domain of interest. In so doing, research questions take the following forms: How does the network matter? What affects the network? Network analysis is the set of tools used to study relational variables. A set of methods for systematically understanding and identifying connections among actors. This course will introduce you to these tools and their application to problems in the field of criminology and criminal justice.
 
 In this course you will learn how to use R and RStudio to import, analyze, and report on social networks.
 
