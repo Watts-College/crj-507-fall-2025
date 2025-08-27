@@ -187,13 +187,22 @@ Plot the network using the `gplot()` function. Modify the plot using at least th
 
 <br>
 
+### Step 4
+
+Describe how each of your modifications helps improve interpretability of the network.
+
+**Response**: 
+*ADD YOUR RESPONSE HERE (THEN DELETE THIS STATEMENT)*
+
+<br>
+
 ----
 
 # Part II
 
 <br>
 
-## First Network
+## Second Network
 
 <br>
 
@@ -230,6 +239,13 @@ Plot the network using the `gplot()` function. Modify the plot using at least th
 # Your code here
 
 ```
+
+### Step 4
+
+Describe how each of your modifications helps improve interpretability of the network.
+
+**Response**: 
+*ADD YOUR RESPONSE HERE (THEN DELETE THIS STATEMENT)*
 
 <br>
 <br>
