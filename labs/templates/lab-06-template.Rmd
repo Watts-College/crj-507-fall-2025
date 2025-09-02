@@ -30,15 +30,6 @@ knitr::opts_chunk$set( echo = TRUE,
 
 ```{r load_packages}
 
-# make sure these are installed on your machine before knitting
-# install.packages( "SNACApack" )
-# install.packages( "network" )
-# install.packages( "sna" )
-#
-# Note that you cannot knit with an install.packages() function
-# called in your RMD file. You only have to install packages
-# once, then they are loaded using the library() function.
-
 # load the packages you need
 library( SNACpack )
 library( network )
@@ -364,10 +355,6 @@ rm( list = ls() )
 ### 16. Plot the network three times using the `gplot()` function where each plot sizes the nodes by the centrality score (i.e. a plot for degree centrality, a plot for closeness centrality, and a plot for betweenness centrality). Examine the plots. Describe how the differences you noted between the centrality measures above are seen in the plots.
 
 ```{r}
-
-# Note that since closeness is all zeros, you can add a 
-# small amount of noise to not break the vertex_rescale() function.
-close_pkn_P[1] <- 0.000001
 
 # Your code here
 

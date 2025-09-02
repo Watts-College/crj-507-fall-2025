@@ -32,10 +32,11 @@ knitr::opts_chunk$set( echo = TRUE,
 
 ```{r load_packages}
 
-# make sure these are installed on your machine before knitting
-# install.packages( "SNACApack" )
-# install.packages( "network" )
-# install.packages( "sna" )
+# make sure you have installed the SNACpack package
+# devtools::install_github( "jacobtnyoung/SNACpack" )
+# be sure to review the Getting Started with R chapter in
+# the Social Network Analysis for Crime Analysts using R textbook
+# if you have questions about how to install SNACpack
 #
 # Note that you cannot knit with an install.packages() function
 # called in your RMD file. You only have to install packages

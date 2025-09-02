@@ -32,15 +32,6 @@ knitr::opts_chunk$set( echo = TRUE,
 
 ```{r load_packages}
 
-# make sure these are installed on your machine before knitting
-# install.packages( "SNACApack" )
-# install.packages( "network" )
-# install.packages( "sna" )
-#
-# Note that you cannot knit with an install.packages() function
-# called in your RMD file. You only have to install packages
-# once, then they are loaded using the library() function.
-
 # load the packages you need
 library( SNACpack )
 library( network )
